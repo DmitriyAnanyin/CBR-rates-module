@@ -1,7 +1,7 @@
 const RatesModule = {
   getAll: async () => {
     return await (
-      await fetch(`https://www.cbr-xml-daily.ru/latest.js?base=EUR`)
+      await fetch(`https://www.cbr-xml-daily.ru/latest.js?base=RUB`)
     ).json()
   },
 
